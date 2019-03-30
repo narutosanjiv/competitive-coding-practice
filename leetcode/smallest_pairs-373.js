@@ -13,7 +13,7 @@ var kSmallestPairs = function(nums1, nums2, k) {
                      while(((last_pair[0] + last_pair[1]) > next_num_sum) && l >= 0 ){
                          
                         smallest_pairs[l + 1] =  [last_pair[0], last_pair[1]]
-                        l = l - 1
+                        l = l -      1
                         if( l > 0){
                           last_pair = smallest_pairs[l]                             
                         } 
